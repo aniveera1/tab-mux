@@ -1,0 +1,26 @@
+ {
+	"name": "C-Mux",
+	"version": "1.0",
+  "permissions": [
+    "declarativeContent",
+    "storage"
+  ],
+	"description": "Tmux for chrome",
+	"background": {
+	  "scripts": ["background.js"],
+	  "persistent": false
+	},
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+	"commands": {
+	  "toggle-feature-foo": {
+  		"suggested_key": {
+  		  "default": "Ctrl+Shift+Y",
+  		  "mac": "Command+Shift+Y"
+  		},
+		"description": "Save tabs"
+	  }
+	},
+	"manifest_version": 2
+}
