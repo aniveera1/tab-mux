@@ -11,9 +11,6 @@
 3. In the new window click on the tab-mux extension icon to reveal all the saved windows
 4. Click on any saved window to bring it back into focus
 
-## Known Bugs
-- Closing a saved window does not remove it from the saved list
-
 ## Proof-of-Concept
 This hacky prototype reveals that Chrome API's expose enough functionality to implement a sufficiently useful Chrome extension for the purposes of tab management.
 The prototype was built with an end product idea of an extension that would enable users to save snapshots of various window configurations with different tabs.
