@@ -1,26 +1,27 @@
- {
-	"name": "C-Mux",
-	"version": "1.0",
+{
+  "name": "Tab Mux",
+  "version": "0.1.0",
   "permissions": [
-    "declarativeContent",
     "storage"
   ],
-	"description": "Tmux for chrome",
-	"background": {
-	  "scripts": ["background.js"],
-	  "persistent": false
-	},
-  "page_action": {
-    "default_popup": "popup.html"
+  "description": "A better way to manage tabs",
+  "background": {
+    "scripts": [
+      "background_scripts/main.js"
+    ],
+    "persistent": false
   },
-	"commands": {
-	  "toggle-feature-foo": {
-  		"suggested_key": {
-  		  "default": "Ctrl+Shift+Y",
-  		  "mac": "Command+Shift+Y"
-  		},
-		"description": "Save tabs"
-	  }
-	},
-	"manifest_version": 2
+  "page_action": {
+    "default_popup": "pages/popup.html"
+  },
+  "commands": {
+    "save-current-context": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Save tabs and open a new window"
+    }
+  },
+  "manifest_version": 2
 }
