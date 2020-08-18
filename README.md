@@ -15,3 +15,6 @@ This hacky prototype reveals that Chrome API's expose enough functionality to im
 The prototype was built with an end product idea of an extension that would enable users to save snapshots of various window configurations with different tabs.
 These saved snapshots would then be offloaded to reduce RAM usage, minimized, and a new window would open to enable the user to start working on a new context.
 These saved snapshots would appear whenever the user clicked on the tab-mux extension icon, and clicking on a saved snapshot would bring the window and all relevant tabs back into focus.
+
+## Next Steps
+Since questions surrounding the feasibilty of the application have been answered, the next step is to scope the actual product and nail down some requirements. This code wasn't written for the purpose of being extended or reused in any major capacity, so no hard feelings if the product direction pivots drastically from the purposed idea above.
