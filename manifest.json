@@ -6,9 +6,7 @@
   ],
   "description": "A better way to manage tabs",
   "background": {
-    "scripts": [
-      "background_scripts/main.js"
-    ],
+    "page": "background/main.html",
     "persistent": false
   },
   "page_action": {
